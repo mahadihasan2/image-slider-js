@@ -15,10 +15,8 @@ setInterval(() => {
     if (imageid >= images.length) {
         imageid = 0;
     }
-    // console.log(imageid)
     const imgurl = images[imageid]
     imageElement.setAttribute('src', imgurl)
-    // console.log(imgurl);
     imageid++;
 
 }, 1000)
